@@ -27,3 +27,11 @@ header{
     font-weight: 700;
     font-size: 1.8em;
 }
+
+.navigation a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
