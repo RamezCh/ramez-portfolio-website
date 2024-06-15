@@ -35,3 +35,7 @@ header{
     font-weight: 500;
     padding-left: 30px;
 }
+
+.navigation a:hover{
+    color: #601cfc;
+}
