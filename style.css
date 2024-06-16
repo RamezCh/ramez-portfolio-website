@@ -279,3 +279,22 @@ section{
 .contact .info p {
     font-size: 1.3em;
 }
+
+footer {
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    background-color: #000016;
+    width: 100%;
+    color: #fff;
+    padding: 2em;
+}
+
+footer p {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+footer p span {
+    color: #3a6cf4;
+}
