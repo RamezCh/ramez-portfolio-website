@@ -242,8 +242,28 @@ section{
     text-transform: uppercase;
     font-weight: 800;
     color: #3a6cf4;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.7s ease;
 }
 
 .project-info .btn-container a:hover {
     color: #601cfc;
+    background-color: #e8eeff;
+    padding: 10px;
+    border-radius: 20px;
+    transform: scale(1.1);
+}
+
+.project-info .btn-container a:nth-child(2) {
+    color: #fff;
+    background-color: #3a6cf4;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.project-info .btn-container a:nth-child(2):hover {
+    background-color: #601cfc;
+    transform: scale(1.1);
 }
