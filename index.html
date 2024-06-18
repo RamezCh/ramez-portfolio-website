@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
     <title>Ramez Chreide</title>
     <link rel="icon" type="x-icon" href="images/favicon.ico">
 </head>
@@ -12,10 +13,21 @@
 
     <header>
         <a href="#" class="logo">RamezCh</a>
-        <nav class="navigation">
-            <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+        <nav>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="M120-320v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </label>
+    
+            <label id="overlay" for="sidebar-active"></label>
+            <div class="links-container">
+                <label for="sidebar-active" class="close-sidebar-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="m256-200-56-56 232-232-232-232 56-56 232 232 232-232 56 56-232 232 232 232-56 56-232-232-232 232Z"/></svg>
+                </label>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
         </nav>
     </header>
 
