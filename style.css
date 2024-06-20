@@ -193,6 +193,9 @@ section {
 }
 
 .project-card {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
     background-color: #fff;
     border: 1px solid #fff;
     min-height: 14em;
